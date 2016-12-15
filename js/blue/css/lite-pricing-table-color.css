@@ -1,0 +1,181 @@
+body.lite-pricing-table{
+	background-color: #efefef;
+}
+
+#lite-pricing-table{
+	background-color: #efefef;
+}
+
+/*PRICE BLUE CODE START*/
+
+#lite-pricing-table .price-content{
+	background-color: #fff;
+}
+
+#lite-pricing-table .price-content {
+	border: 1px solid #f4f4f4;
+	background-color: #fff;
+}
+
+#lite-pricing-table .price-content .popular-label {
+	background-color: #3498DB;
+}
+
+#lite-pricing-table .price-content .popular-label::after {
+    border-bottom: 15px solid #3498DB;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+#lite-pricing-table .price-content .popular-label .fa {
+    color: #fff;
+}
+
+#lite-pricing-table .price-content:hover .popular-label {
+	background-color: #2980b9;
+	z-index: 999;
+}
+
+#lite-pricing-table .price-content .popular-label.compair {
+	background-color: #3498DB;
+}
+
+#lite-pricing-table .price-content .popular-label.compair::after {
+    border-bottom: 15px solid #fff;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+}
+
+#lite-pricing-table .price-content .popular-label.compair .fa {
+    color: #fff;
+}
+
+#lite-pricing-table .price-content:hover .popular-label.compair{
+	background-color: #2980b9;
+	z-index: 999;
+}
+
+#lite-pricing-table .price-content:hover .popular-label.compair::after,
+#lite-pricing-table .price-content.active .popular-label.compair::after{
+    border-bottom: 15px solid #3498DB;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+	z-index: 999;
+}
+
+#lite-pricing-table .price-content:hover .popular-label,
+#lite-pricing-table .price-content.active .popular-label{
+	background-color: #2980b9;
+	z-index: 999;
+}
+
+#lite-pricing-table .price-content:hover .popular-label.compair,
+#lite-pricing-table .price-content.active .popular-label.compair{
+	background-color: #2980b9;
+	z-index: 999;
+}
+
+#lite-pricing-table .price-content:hover .popular-label::after.compair,
+#lite-pricing-table .price-content.active .popular-label::after.compair{
+    border-bottom: 15px solid #3498db;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+	z-index: 999;
+}
+
+
+#lite-pricing-table .price-content .price-details {
+	background-color: #3498DB;
+}
+
+
+#lite-pricing-table .price-content .head{
+	background-color: #3498db;
+}
+
+#lite-pricing-table .price-content .head h3{
+	color: #fff;
+}
+
+#lite-pricing-table .price-content .currency {
+    color: #494949;
+}
+
+#lite-pricing-table .price-content .plan-list ul li a{
+	color: #494949;
+}
+
+#lite-pricing-table .price-content .plan-list ul li .check{
+	color: #8AC700;
+}
+
+#lite-pricing-table .price-content .plan-list ul li .times{
+	color: #E7512F;
+}
+
+
+#lite-pricing-table .price-content .price-btn a{
+	background-color: #3498db;
+	color: #fff;
+}
+
+
+#lite-pricing-table .price-content:hover .popular-label,
+#lite-pricing-table .price-content.active .popular-label {
+	background-color: #2980b9;
+	z-index:999;
+}
+
+#lite-pricing-table .price-content:hover .popular-label::after,
+#lite-pricing-table .price-content.active .popular-label::after {
+    border-bottom: 15px solid #3498db;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+	z-index:999;
+}
+
+#lite-pricing-table .price-content:hover .head,
+#lite-pricing-table .price-content.active .head{
+	background-color: #2980b9;
+}
+
+#lite-pricing-table .price-content:hover .currency,
+#lite-pricing-table .price-content.active .currency {
+    color: #fff;
+}
+
+#lite-pricing-table .price-content .plan-list ul li:hover{
+	background: #f6f6f6;
+}
+
+#lite-pricing-table .price-content:hover .price-btn a:hover,
+#lite-pricing-table .price-content.active .price-btn a{
+	background-color: #2980b9;
+	color: #fff;
+}
+/*COMPARISON START*/
+#lite-pricing-table .comparison{
+	background: #FFF;
+}
+
+#lite-pricing-table .comparison .plan{
+	background-color: #3498DB;
+}
+
+#lite-pricing-table .comparison:hover .plan{
+	background-color: #2980b9;
+}
+
+#lite-pricing-table .comparison .plan h3{
+	color: #fff;
+}
+
+#lite-pricing-table .comparison .plan-list ul li:hover{
+	background: #f6f6f6;
+}
+
+#lite-pricing-table .comparison .plan-list ul li a{
+	color: #494949;
+}
+/*COMPARISON CODE END*/
+/*PRICE BLUE CODE END*/

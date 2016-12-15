@@ -1,0 +1,84 @@
+body h1,h2,h3,h4,label,button,a,p{
+font-family: 'Open Sans', sans-serif !important;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url(polina.jpg) no-repeat; */
+    background-size: cover; 
+}
+
+
+.webagencyform label{
+text-align:left !important;
+padding:.0.5em;
+}
+
+
+.sTable{
+border:none;
+}
+
+.webagencyform{
+box-sizing:border-box;
+padding-left:2em;
+padding-top:1em;
+padding-bottom:3em;
+background:rgba(0,0,0,0.5);
+}
+
+#webagencyrespond{
+color:#fff;
+}
+
+label{
+color:#fff;
+}
+
+.domainlist{
+box-sizing:border-box;
+padding-left:2em;
+padding-top:1em;
+padding-bottom:3em;
+background:rgba(0,0,0,0.25);
+}
+
+
+.domainlist h2{
+color:#fff;
+}
+
+
+
+.webagencyform h2{
+color:#fff;
+padding-bottom: .5em;
+border-bottom: 1px solid #fff;
+}
+
+.notavailable td{
+background-color:#ff0000;
+color:#fff;
+font-size:0.8em;
+}
+
+
+
+.available td{
+background-color:#3AD631;
+color:#ffffff;
+font-size:1.1em;
+border-left:1px solid #089600;
+border-bottom:2px solid #089600;
+}

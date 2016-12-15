@@ -1,0 +1,211 @@
+@import 'fonts.css';
+
+/* main engine container */
+.engine{
+    margin-bottom: 20px;
+    font-family: Helvetica, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666699;
+    position: relative;
+}
+.engine-list-container{
+    overflow: auto;
+}
+/* grid table */
+.engine-list{
+    min-width: 100%;
+    width: auto;
+    display: table !important;
+    margin: 0 0 3px;
+    border-spacing: 0;
+}
+
+/* grid column header */
+.engine-list th{
+    border-bottom: 2px solid #6678B1;
+    color: #003399;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 8px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* grid column with action */ 
+.engine-list th.engine-action:hover{
+    cursor: pointer;
+    color: #000099;
+}
+
+/* grid cell */
+.engine-list td{
+    border-bottom: 1px solid #ccc;
+    color: #666699;
+    padding: 6px 8px;
+    vertical-align: top;
+}
+
+/* row hover */
+.engine-list tr:hover > td{
+    color: #000099;
+}
+ /* grid buttons column */
+.engine-actions{
+    text-align: right;
+}
+
+/* h2 table header */
+.engine h2,.engine-main-tab{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: normal;
+    margin: 5px 0 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    color: #666699;
+}
+
+/* toggle button */
+.engine-toggle-show{
+    font-size: 12px;
+    margin-top: 5px;
+    float: right;
+    cursor: pointer;
+    color: #666699;
+}
+.engine-toggle-show:hover{
+    color: #000099;
+}
+/* minimized tab */
+.engine-main-tab{
+    background: #fafafa;
+}
+
+/* buttons */
+.engine-button{
+    font-size: 14px;
+    margin: 0 5px;
+    color: #666699;
+}
+a.engine-button{
+    text-decoration: underline;
+}
+.engine-button > i{
+    font-size: 12px;
+    margin-right: 3px;
+    text-decoration: none;
+}
+.engine-actions .engine-button{
+    text-decoration: none;
+}
+.engine-button:hover{
+    color: #000099;
+}
+
+/* inputs */
+.engine input[type="text"],.engine select{
+    margin-right: 3px;
+}
+.engine-input-small{
+    width: 70px;
+}
+ /* pagination */
+.engine-pagination{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 14px;
+}
+.engine-pagination li{
+    list-style: none;
+    display: inline;
+    margin: 0 5px;
+}
+.engine-pagination li a{
+    color: #666699;
+}
+.engine-pagination li a:hover{
+    color: #000099;
+}
+/* benchmark */
+.engine-benchmark{
+    display: block;
+    text-align: right;
+}
+.engine-benchmark span{
+    font-size: 10px;
+    margin: 0 5px;
+    color: #bbb;
+    line-height: 1.1;
+}
+
+/* details image */
+.engine-upload-container img{
+    display: block;
+}
+ /* upload file name */
+.engine-file-name > a{
+    font-size: 14px;
+    margin-right: 5px;
+}
+ /* tooltips */
+.engine-tooltip{
+    text-decoration: none;
+    font-size: 80%;
+    color: #AD2424;
+}
+
+
+/* messages */
+.engine-message{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    padding: 10px 20px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.05),inset 0 1px 0 rgba(0,0,0,0.05);
+    display: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    color: #fff;
+    color: rgba(255,255,255,0.90);
+    cursor: pointer;
+    z-index: 500;
+}
+.engine-message.success{
+    background: #5AB95F;
+    border-top: 1px solid #8A1414;
+    border-bottom: 1px solid #8A1414;
+}
+.engine-message.error{
+    background: #D05C5C;
+    border-top: 1px solid #931C1C;
+    border-bottom: 1px solid #931C1C;
+}
+.engine-message.info{
+    background: #6CC3C6;
+    border-top: 1px solid #127B7C;
+    border-bottom: 1px solid #127B7C;
+}
+.engine-message.note{
+    background: #DDB75D;
+    border-top: 1px solid #A66E13;
+    border-bottom: 1px solid #A66E13;
+}
+
+/* RTL */
+.engine.engine_rtl{
+    direction: rtl;
+}
+.engine.engine_rtl .engine-toggle-show{
+    float: left;
+}
+.engine.engine_rtl .engine-button > i{
+    margin-right: auto;
+    margin-left: 4px;
+}
+.engine.engine_rtl .engine-details-table td:first-child {
+    text-align: left;
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: Arial;
+    font-size: 13px;
+    padding: 10px 20px 100px;
+}
+h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    margin: 5px 0;
+    padding: 0;
+}
+h2 {
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 20px;
+}
+h4 {
+    font-family: Verdana;
+    font-weight: normal;
+    margin: 20px 0 10px;
+    padding: 0;
+}
+strong {
+    font-weight: normal;
+    color: crimson;
+}
+
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+
+
+
+
+fieldset,
+.panel--white {
+    display: block;
+    border-radius: 3px;
+    background: white;
+    padding: 10px 15px;
+}
+.panel--280 {
+    width: 280px;
+}
+.text-jumbo {
+    padding: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 275px;
+    height: 20px;
+    margin: 7px 0;
+    padding: 5px;
+}
+.btn--green {
+    background: #449d44;
+    border: 1px solid #398439;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 12px;   
+}
+.btn--blue {
+    background: #31b0d5;
+    border: 1px solid #269abc;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 12px;   
+}
+.btn--blue2 {
+    background: #4d90fe;
+    border: 1px solid #4d90fe;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 12px;
+}
+.example {
+   /* background: #999; */
+    margin: 20px;
+    padding: 20px;
+}
+.form-header {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+.number-box {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+.code {
+    font-family: monospace;
+    white-space: pre;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin: 10px 20px;
+}
+.api {
+    border-collapse: collapse;
+    font-family: verdana;
+    margin: 10px 20px;
+}
+.api th, .api td {
+    text-align: left;
+    padding: 5px 10px;
+}
+.api td:first-child {
+    white-space: nowrap;
+}
+.api tr:nth-child(odd) {
+   background-color: #dfdfdf;
+}
+.cs-page__container--900 {
+    height: 900px;
+}
+.cs-page__container--900 .cs-page {
+    width: 900px;
+}
